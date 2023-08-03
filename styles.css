@@ -21,7 +21,6 @@ body {
   place-items: center;
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-size: 0.75rem;
-  width: 100vw;
   min-height: 100vh;
   background: var(--Light-grayish-blue);
   letter-spacing: 0.06em;
@@ -45,7 +44,7 @@ body {
 
 }
 
-.people h1 {
+.people blockquote .heading-quote {
   color: var(--White);
   margin: 1rem auto;
   font-size: 1.2rem;
@@ -53,7 +52,7 @@ body {
 
 }
 
-.people p {
+.people .paragraph {
   color: var(--Light-gray);
   opacity: 70%;
   line-height: 1rem;
@@ -63,11 +62,11 @@ body {
 
 .profile {
   display: grid;
-  grid-template-columns: 45px 100%;
+  grid-template-columns: 45px auto;
 
 }
 
-.no-bg-color .profile h2, .no-bg-color h1 {
+.no-bg-color .profile h2, .no-bg-color blockquote .heading-quote {
   color: var(--Very-dark-blackish-blue);
   opacity: 80%;
 
@@ -75,7 +74,7 @@ body {
 
 
 
-.no-bg-color p, .no-bg-color .profile p {
+.no-bg-color .paragraph, .no-bg-color .profile .paragraph {
   color: var(--Very-dark-grayish-blue);
   opacity: 50%;
 
@@ -97,7 +96,7 @@ body {
 
 }
 
-.profile p {
+.profile .paragraph {
   color: var(--Light-gray);
   opacity: 50%;
 
