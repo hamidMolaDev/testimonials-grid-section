@@ -45,7 +45,7 @@ body {
 
 }
 
-.people h3 {
+.people h2 {
   color: var(--White);
   margin: 1rem auto;
   font-size: 1.2rem;
@@ -67,7 +67,7 @@ body {
 
 }
 
-.no-bg-color .profile h4, .no-bg-color h3 {
+.no-bg-color .profile h3, .no-bg-color h2 {
   color: var(--Very-dark-blackish-blue);
   opacity: 80%;
 
@@ -89,8 +89,9 @@ body {
 
 }
 
-.profile h4 {
+.profile h3 {
   color: var(--White);
+  font-size: 0.85rem;
   opacity: 85%;
   margin-bottom: 0.25rem;
 
